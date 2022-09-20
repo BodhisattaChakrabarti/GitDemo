@@ -73,6 +73,18 @@ public class Day3 {
 		System.out.println("Welcome to Macedonia");
 	}
 	
+	@Test(dependsOnMethods= {"webLoginCarLoan", "mobileSignoutCarLoan"})
+	public void loginAPICarLoan1()
+	{
+		System.out.println("Welcome to Athens");
+	}
+	
+	@Test(dependsOnMethods= {"webLoginCarLoan", "mobileSignoutCarLoan"})
+	public void loginAPICarLoan2()
+	{
+		System.out.println("Welcome to Sparta");
+	}
+	
 	@AfterClass
 	public void afterEveryClass()
 	{
