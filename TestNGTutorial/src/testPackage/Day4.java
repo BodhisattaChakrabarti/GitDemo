@@ -22,9 +22,21 @@ public class Day4 {
 	}
 	
 	@Test(enabled=false)
-	public void loginAPIHomeLoan()
+	public void loginAPIHomeLoan1()
 	{
 		System.out.println("Welcome to Egyptia");
+	}
+	
+	@Test(enabled=false)
+	public void loginAPIHomeLoan2()
+	{
+		System.out.println("Welcome to Egypt");
+	}
+	
+	@Test(enabled=false)
+	public void loginAPIHomeLoan3()
+	{
+		System.out.println("Welcome to Ethiopia");
 	}
 	
 	@AfterSuite

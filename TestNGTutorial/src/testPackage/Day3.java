@@ -29,9 +29,21 @@ public class Day3 {
 	}
 	
 	@Test
-	public void webLoginCarLoan()
+	public void webLoginCarLoan1()
 	{
 		System.out.println("Welcome to Hispania");
+	}
+	
+	@Test
+	public void webLoginCarLoan2()
+	{
+		System.out.println("Welcome to Spain");
+	}
+	
+	@Test
+	public void webLoginCarLoan3()
+	{
+		System.out.println("Welcome to Argentina");
 	}
 	
 	@Parameters({"URL"})
