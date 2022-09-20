@@ -16,6 +16,8 @@ public class Day1 {
 	public void secondDemo()
 	{
 		System.out.println("Welcome to Germania");
+		System.out.println("Welcome to Prussia");
+		System.out.println("Welcome to Germany");
 		Assert.assertFalse(true);
 	}
 	
