@@ -16,6 +16,9 @@ public class Day2 {
 	public void pLoan()
 	{
 		System.out.println("Welcome to Britannia");
+		System.out.println("Welcome to Britain");
+		System.out.println("Welcome to England");
+		System.out.println("Welcome to Wales");
 	}
 	
 	@AfterMethod
